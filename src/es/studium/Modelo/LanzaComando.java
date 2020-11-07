@@ -44,7 +44,6 @@ public class LanzaComando {
 		try {
 
 			p = Runtime.getRuntime().exec(comando);
-			p.onExit();
 		} catch (IOException e) {
 			
 			e.printStackTrace();
